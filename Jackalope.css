@@ -1,0 +1,233 @@
+/* Nav and body */
+html, body {
+  height: 100%;
+  width: 100%;
+	margin: 0;
+  font-family: noto sans japanese;
+	background:  #141414;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #141414;
+	width: 100%;
+	height: auto;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: rgb(234, 16, 22);
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+	font-weight: bold;
+	margin-top: 15px;
+	font-family: noto sans japanese;
+}
+
+.topnav a:hover {
+  color: rgb(167, 17, 22);
+}
+
+.topnav a.active {
+  background-color: #141414;
+  color: rgb(234, 16, 22);
+	font-size: 35px;
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 35px;
+}
+
+.topnav a.active:hover{
+	color: rgb(167, 17, 22);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a img{
+	display: none;
+}
+
+.topnav a:hover img{
+	display: block;
+}
+
+@media screen and (max-width: 1100px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+section{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+#main{
+	width: 100%;
+	height: auto;
+	background:  rgb(167, 17, 22);
+	box-sizing: border-box;
+}
+
+#main center{
+	height: 650px;
+	width: auto;
+	box-sizing: border-box;
+}
+
+iframe{
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	margin: 20px;
+}
+
+@media (max-width: 950px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+footer nav{
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  font-size: 14px;
+	width: 1200px;
+  margin: auto;
+	background: #141414;
+}
+
+nav{
+	display: block;
+}
+
+.home-official-link1 a{
+  display: block;
+  color: rgb(234, 16, 22);
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 35px;
+	font-weight: bold;
+	font-family: noto sans japanese;
+}
+
+.home-official-link1 a:hover {
+  color: rgb(167, 17, 22);
+}
+
+.home-official-link2 p{
+	color: rgb(234, 16, 22);
+	font-size: 18px;
+	font-family: noto sans japanese;
+	font-weight: bold;
+	padding: 10px 0px 0px 0px;
+	width: 150px;
+}
+
+.home-official-link2 a{
+	text-decoration: none;
+	list-style: none;
+	list-style-type: none;
+	color: rgb(234, 16, 22);
+}
+
+footer nav div.home-official-link1 {
+  padding: 0px 28px 0px 28px;
+	margin: 0px;
+}
+
+footer nav div.home-official-link2 {
+	padding: 0px 0px 0px 28px;
+	text-decoration: none;
+	list-style: none;
+	list-style-type: none;
+}
+
+ul{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+li{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px 10px 0px 0px;
+	text-decoration: none;
+	color: rgb(234, 16, 22);
+	list-style: none;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+li a:hover {
+  color: rgb(167, 17, 22);
+}
+
+footer nav ul{
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+	footer nav{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-pack: center-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+	}
+}
