@@ -139,23 +139,23 @@ html, body {
 
 @media screen and (max-width: 425px){   
   #main-img{      
-    content:url("Milgram\ First\ Trial\ 合照小图.jpeg");
+    content:url("banners/MilgramFirstTrialBanner\(S\).jpeg");
   } 
 }
 
 @media screen and (min-width: 0px) {      
   #main-img{      
-  	content:url("Milgram\ First\ Trial\ 合照小图.jpeg");
+  	content:url("banners/MilgramFirstTrialBanner\(S\).jpeg");
    } 
 } 
 @media (min-width: 768px){      
   #main-img{        
-    content:url("Milgram\ First\ Trial\ 合照大图.jpg");  
+    content:url("banners/MilgramFirstTrialBanner\(L\).jpg");  
   } 
 }
 @media (min-width: 1440px) {    
   #main-img{         
-   content:url("Milgram\ First\ Trial\ 合照大图.jpg");   
+   content:url("banners/MilgramFirstTrialBanner\(L\).jpg");   
   } 
 }
 
@@ -167,23 +167,23 @@ html, body {
 
 @media screen and (max-width: 425px){   
   #main-img2{      
-    content:url("Milgram\ Second\ Trial\ 合照小图.png");
+    content:url("banners/MilgramSecondTrialBanner\(S\).png");
   } 
 }
 
 @media screen and (min-width: 0px) {      
   #main-img2{      
-  	content:url("Milgram\ Second\ Trial\ 合照小图.png");
+  	content:url("banners/MilgramSecondTrialBanner\(S\).png");
    } 
 } 
 @media (min-width: 768px){      
   #main-img2{        
-    content:url("Milgram\ Second\ Trial\ 合照大图.jpg");  
+    content:url("banners/MilgramSecondTrialBanner\(L\).jpg");  
   } 
 }
 @media (min-width: 1440px) {    
   #main-img2{         
-   content:url("Milgram\ Second\ Trial\ 合照大图.jpg");   
+   content:url("banners/MilgramSecondTrialBanner\(L\).jpg");   
   } 
 }
 
