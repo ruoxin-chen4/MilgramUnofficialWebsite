@@ -109,7 +109,7 @@ html, body {
 	margin: 0px;
 	font-family: noto sans japanese;
 	font-weight: bold;
-	width: 49.8%;
+	width: 33.3%;
 	float: center;
 }
 
@@ -185,6 +185,34 @@ html, body {
   #main-img2{         
    content:url("banners/MilgramSecondTrialBanner\(L\).jpg");   
   } 
+}
+
+/* The Main Image 3 */
+#main-img3 {
+	height: 100%;
+	width:100%
+} 
+
+@media screen and (max-width: 425px){   
+	#main-img3{      
+		content:url("banners/MilgramThirdTrialBanner\(S\).webp");
+	} 
+}
+
+@media screen and (min-width: 0px) {      
+	#main-img3{      
+		content:url("banners/MilgramThirdTrialBanner\(S\).webp");
+	 } 
+} 
+@media (min-width: 768px){      
+	#main-img3{        
+		content:url("banners/MilgramThirdTrialBanner\(L\).webp");  
+	} 
+}
+@media (min-width: 1440px) {    
+	#main-img3{         
+	 content:url("banners/MilgramThirdTrialBanner\(L\).webp");   
+	} 
 }
 
 /* The Body Paragraph */
